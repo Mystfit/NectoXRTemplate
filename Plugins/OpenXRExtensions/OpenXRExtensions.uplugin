@@ -1,0 +1,84 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "OpenXRExtensions",
+	"Description": "Additional OpenXR extensions that haven't been rolled into the main engine yet.",
+	"Category": "Other",
+	"CreatedBy": "Byron Mallett",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ColorScaleExtension",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Hololens",
+				"Android"
+			]
+		},
+		{
+			"Name": "DisplayRefreshRateExtension",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Hololens",
+				"Android"
+			]
+		},
+		{
+			"Name": "ColorSpaceExtension",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Hololens",
+				"Android"
+			]
+		},
+		{
+			"Name": "PerformanceSettingsExtension",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Hololens",
+				"Android"
+			]
+		},
+		{
+			"Name": "AndroidThreadSettingsExtension",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"WhitelistPlatforms": [
+				"Android"
+			]
+		},
+		{
+			"Name": "OpenXRExtensions",
+			"Type": "Runtime",
+			"LoadingPhase": "PostEngineInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Mac",
+				"Hololens",
+				"Android"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OpenXR",
+			"Enabled": true
+		}
+	]
+}
